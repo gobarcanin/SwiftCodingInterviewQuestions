@@ -59,17 +59,6 @@ public extension Array where Element == Int {
 	}
 }
 
-
-//FINDING SUM OF K
-
-let findStartTime = CFAbsoluteTimeGetCurrent()
 [8, 2, 9, 5, 10, 1].find(findingSum: 15)
-print("Find result: \(findStartTime - CFAbsoluteTimeGetCurrent())")
-
-let fasterFindStartTime = CFAbsoluteTimeGetCurrent()
 [8, 2, 9, 5, 10, 1].fasterFind(findingSum: 15)
-print("Find result: \(fasterFindStartTime - CFAbsoluteTimeGetCurrent())")
-
-let fastestFindStartTime = CFAbsoluteTimeGetCurrent()
 [8, 2, 9, 5, 10, 1].fastestFind(findingSum: 15)
-print("Find result: \(fastestFindStartTime - CFAbsoluteTimeGetCurrent())") //--> Review!!!
