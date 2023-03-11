@@ -9,6 +9,9 @@
  │  III     4   5   6   7          7   6   5   4 │
  │                                               │
  └───────────────────────────────────────────────┘
+ 
+ Time complexity O(n)
+ Space complexity O(h)  h--> height of tree
  */
 
 let four = Node(value: 4)
