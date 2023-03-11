@@ -5,5 +5,7 @@
         <page name='FirstRepeatingCharacter'/>
         <page name='RemoveDuplicates'/>
         <page name='FindDuplicates'/>
+        <page name='TreeDepthFirstSearch'/>
+        <page name='MaximumSubArray'/>
     </pages>
 </playground>
