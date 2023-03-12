@@ -10,5 +10,6 @@
         <page name='ReverseBinaryTree'/>
         <page name='LongestSubstring'/>
         <page name='ReverseLinkedList'/>
+        <page name='PeakFinding'/>
     </pages>
 </playground>
