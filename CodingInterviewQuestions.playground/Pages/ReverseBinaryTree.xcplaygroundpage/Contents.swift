@@ -14,15 +14,15 @@
  Space complexity O(h)  h--> height of tree
  */
 
-let four = Node(value: 4)
-let five = Node(value: 5)
-let six = Node(value: 6)
-let seven = Node(value: 7)
+let four = BinaryNode(value: 4)
+let five = BinaryNode(value: 5)
+let six = BinaryNode(value: 6)
+let seven = BinaryNode(value: 7)
 
-let two = Node(value: 2, left: four, right: five)
-let three = Node(value: 3, left: six, right: seven)
+let two = BinaryNode(value: 2, left: four, right: five)
+let three = BinaryNode(value: 3, left: six, right: seven)
 
-let one = Node(value: 1, left: two, right: three)
+let one = BinaryNode(value: 1, left: two, right: three)
 
 print("I :\(one.value)")
 print("II(L) :\(one.left!.value)")

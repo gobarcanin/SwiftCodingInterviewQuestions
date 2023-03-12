@@ -1,10 +1,10 @@
 
-public class Node {
+public class BinaryNode {
 	public let value: Int
-	public var left: Node?
-	public var right: Node?
+	public var left: BinaryNode?
+	public var right: BinaryNode?
 	
-	public init(value: Int, left: Node? = nil, right: Node? = nil) {
+	public init(value: Int, left: BinaryNode? = nil, right: BinaryNode? = nil) {
 		self.value = value
 		self.left = left
 		self.right = right

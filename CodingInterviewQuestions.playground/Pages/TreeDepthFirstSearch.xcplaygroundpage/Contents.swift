@@ -8,7 +8,7 @@
  Space complexity O(h) h -> height of tree
  */
 
-func dfsPreorder(node: Node?) {
+func dfsPreorder(node: BinaryNode?) {
 	guard let node = node else {
 		return
 	}
@@ -17,7 +17,7 @@ func dfsPreorder(node: Node?) {
 	dfsPreorder(node: node.right)
 }
 
-func dfsInOrder(node: Node?) {
+func dfsInOrder(node: BinaryNode?) {
 	guard let node = node else {
 		return
 	}
@@ -26,7 +26,7 @@ func dfsInOrder(node: Node?) {
 	dfsInOrder(node: node.right)
 }
 
-func dfsPostorder(node: Node?) {
+func dfsPostorder(node: BinaryNode?) {
 	guard let node = node else {
 		return
 	}
@@ -36,15 +36,15 @@ func dfsPostorder(node: Node?) {
 }
 
 
-let thirdOne = Node(value: 3)
-let thirdTwo = Node(value: 4)
-let thirdThree = Node(value: 6)
-let thirdFour = Node(value: 7)
+let thirdOne = BinaryNode(value: 3)
+let thirdTwo = BinaryNode(value: 4)
+let thirdThree = BinaryNode(value: 6)
+let thirdFour = BinaryNode(value: 7)
 
-let secondLeft = Node(value: 2, left: thirdOne, right: thirdTwo)
-let secondRight = Node(value: 5, left: thirdThree, right: thirdFour)
+let secondLeft = BinaryNode(value: 2, left: thirdOne, right: thirdTwo)
+let secondRight = BinaryNode(value: 5, left: thirdThree, right: thirdFour)
 
-let top = Node(value: 1, left: secondLeft, right: secondRight)
+let top = BinaryNode(value: 1, left: secondLeft, right: secondRight)
 print("preorder")
 dfsPreorder(node: top)
 print("inorder")

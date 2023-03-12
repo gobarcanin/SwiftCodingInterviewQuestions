@@ -11,5 +11,6 @@
         <page name='LongestSubstring'/>
         <page name='ReverseLinkedList'/>
         <page name='PeakFinding'/>
+        <page name='PalindromeLinkedList'/>
     </pages>
 </playground>
