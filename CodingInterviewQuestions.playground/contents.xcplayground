@@ -9,5 +9,6 @@
         <page name='MaximumSubArray'/>
         <page name='ReverseBinaryTree'/>
         <page name='LongestSubstring'/>
+        <page name='ReverseLinkedList'/>
     </pages>
 </playground>
