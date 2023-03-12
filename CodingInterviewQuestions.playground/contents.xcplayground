@@ -8,5 +8,6 @@
         <page name='TreeDepthFirstSearch'/>
         <page name='MaximumSubArray'/>
         <page name='ReverseBinaryTree'/>
+        <page name='LongestSubstring'/>
     </pages>
 </playground>
