@@ -12,5 +12,6 @@
         <page name='ReverseLinkedList'/>
         <page name='PeakFinding'/>
         <page name='PalindromeLinkedList'/>
+        <page name='LongestPossiblePalindrome'/>
     </pages>
 </playground>
